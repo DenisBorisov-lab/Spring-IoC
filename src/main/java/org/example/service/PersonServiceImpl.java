@@ -1,10 +1,12 @@
 package org.example.service;
 
 import lombok.AllArgsConstructor;
+import lombok.Setter;
 import org.example.dao.PersonDao;
 import org.example.domain.Person;
 
-@AllArgsConstructor
+//@AllArgsConstructor
+@Setter
 public class PersonServiceImpl implements PersonService {
     private PersonDao dao;
 
